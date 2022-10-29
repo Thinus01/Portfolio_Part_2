@@ -5,8 +5,8 @@
   padding: 0;
 }
 
-  html {
-font-family: Poppins, sans-serif;
+html {
+  font-family: Poppins, sans-serif;
 }
 
 header .navbar a {
@@ -112,7 +112,7 @@ header {
   position: absolute;
   width: 375px;
   height: 2788px;
-  left: 0px;
+  left: 0.1px;
   top: 718px;
 }
 
@@ -134,7 +134,6 @@ header {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   gap: 12px;
   width: 295px;
   height: 288px;
@@ -148,7 +147,6 @@ header {
   gap: 12px;
   width: 295px;
   height: 80px;
-
 }
 
 #project_title {
@@ -160,7 +158,6 @@ header {
   font-size: 32px;
   line-height: 33px;
   color: #172b4d;
-
 }
 
 #frame2 {
@@ -168,7 +165,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-   padding: 25px 0px;
+  padding: 25px 0.1px;
   gap: 12px;
   width: 236px;
   height: 32px;
@@ -178,7 +175,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0.1px;
   width: 55px;
   height: 32px;
 }
@@ -187,14 +184,13 @@ header {
   width: 8px;
   height: 8px;
   background: #c1c7d0;
-
 }
 
 #role {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0.1px;
   width: 88px;
   height: 32px;
 }
@@ -203,7 +199,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px 0.1px;
   width: 29px;
   height: 32px;
 }
@@ -224,7 +220,6 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   gap: 8px;
   width: 203px;
   height: 24px;
@@ -323,7 +318,7 @@ header {
   width: 140px;
   height: 48px;
   left: 60px;
-  top: calc(21% - 48px/2);
+  top: calc(21% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
 }
@@ -536,8 +531,8 @@ header {
   background: url(images/SnapshootPortfolio.svg);
   border-radius: 8px;
 }
+
 ul {
-  
   list-style-type: none;
 }
 
