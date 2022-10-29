@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Poppins, sans-serif;
 }
 
 html {
@@ -73,7 +74,7 @@ header {
   display: flex;
   gap: 20px;
   list-style: none;
-  padding: 0 24px;
+  padding: 15px 24px;
 }
 
 .btn {
@@ -111,9 +112,14 @@ header {
   gap: 88px;
   position: absolute;
   width: 375px;
-  height: 2788px;
+  height: 1800px;
   left: 0.1px;
   top: 718px;
+}
+
+#works .wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 #card_works {
@@ -214,6 +220,7 @@ header {
   line-height: 24px;
   top: 10px;
   align-items: center;
+  margin-left: 10px;
 }
 
 #tags {
@@ -317,10 +324,10 @@ header {
   gap: 10px;
   width: 140px;
   height: 48px;
-  left: 60px;
   top: calc(21% - 48px / 2);
   border: 1px solid #6070ff;
   border-radius: 8px;
+  margin-left: 10px;
 }
 
 #see_project {
@@ -363,19 +370,20 @@ header {
 #about_myself {
   display: flex;
   flex-wrap: wrap;
-  width: 99%;
-  height: calc(80vh - 48px);
+  width: 70%;
+  height: calc(350px);
   padding-top: 80px;
   flex-direction: column;
   gap: 12px;
 }
 
-#about_myself h1 {
+#about_myself h2 {
+  display: flex;
+  flex-wrap: wrap;
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
   color: #172b4d;
-  padding: 0 30px;
 }
 
 #about_myself > a {
@@ -386,7 +394,6 @@ header {
   font-size: 16px;
   color: #7f8cff;
   text-decoration: none;
-  padding: 0 24px;
 }
 
 #about_myself p {
@@ -394,7 +401,6 @@ header {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-  padding: 0 24px;
 }
 
 #skill_list {
@@ -411,6 +417,7 @@ header {
   align-items: flex-start;
   width: 327px;
   height: 320.15px;
+  margin-top: 90px;
 }
 
 #frameworks {
@@ -438,15 +445,15 @@ header {
   width: 40px;
   height: 40px;
   right: 20%;
-  top: calc(102.8% - 40px / 2);
+  top: calc(47% - 40px / 2);
 }
 
 #lang_text {
   position: absolute;
   height: 24px;
-  left: 12px;
+  left: 5%;
   right: 78px;
-  top: calc(103% - 24px / 2);
+  top: calc(47% - 24px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 550;
@@ -460,19 +467,17 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 12px;
   gap: 12px;
-  width: 200px;
+  width: 300px;
   height: 60.15px;
-  padding-top: 30px;
 }
 
 #frame_text {
   position: absolute;
   height: 24px;
-  left: 12px;
+  left: 5%;
   right: 78px;
-  top: calc(114% - 24px / 2);
+  top: calc(65% - 24px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 550;
@@ -486,9 +491,9 @@ header {
 #skills_text {
   position: absolute;
   height: 24px;
-  left: 12px;
+  left: 5%;
   right: 78px;
-  top: calc(117% - 24px / 2);
+  top: calc(68% - 24px / 2);
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 550;
@@ -508,7 +513,7 @@ header {
   width: 25px;
   height: 40px;
   right: 20%;
-  top: calc(114% - 40px / 2);
+  top: calc(65% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -521,7 +526,7 @@ header {
   width: 25px;
   height: 40px;
   right: 20%;
-  top: calc(117% - 40px / 2);
+  top: calc(68% - 40px / 2);
   border-radius: 8px;
 }
 
@@ -548,8 +553,8 @@ ul {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  top: 101%;
-  left: 10%;
+  top: 39.5%;
+  left: 5%;
 }
 
 #resume {
@@ -565,4 +570,18 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #396df2;
+}
+
+#last_page {
+  display: flex;
+  flex-direction: column;
+  padding: 114px 24px;
+  gap: 24px;
+  position: absolute;
+  width: 375px;
+  height: 1125.15px;
+
+  top: 3506px;
+  margin-left: 5%;
+  margin-right: 10%;
 }
