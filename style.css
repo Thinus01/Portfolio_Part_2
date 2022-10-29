@@ -112,17 +112,11 @@ header {
   align-items: start;
   align-items: center;
   padding: 114px 24px;
-  gap: 88px;
   position: absolute;
   width: 375px;
   height: 1800px;
   left: 0.1px;
   top: 718px;
-}
-
-#works .wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 #card_works {
@@ -583,7 +577,6 @@ ul {
   position: absolute;
   width: 375px;
   height: 1125.15px;
-
   top: 3506px;
   margin-left: 5%;
   margin-right: 10%;
