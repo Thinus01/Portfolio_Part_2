@@ -120,8 +120,8 @@ header {
 }
 
 #works .wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 #card_works {
@@ -579,7 +579,6 @@ ul {
   position: absolute;
   width: 375px;
   height: 1125.15px;
-
   top: 3506px;
   margin-left: 5%;
   margin-right: 10%;
